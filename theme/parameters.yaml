@@ -3,8 +3,8 @@ color_scheme:
   - {color: '#000000', name: Primary}
   - {color: '#7B2E0E', name: Primary Container}
   - {color: '#5B1A00', name: On Primary}
-  - {color: '#FFDBCF', name: On Primary Container}
-  - {color: '#E7BDB0', name: Secondary}
+  - {color: '#000000', name: On Primary Container}
+  - {color: '#00ffff', name: Secondary}
   - {color: '#5D4036', name: Secondary Container}
   - {color: '#442A21', name: On Secondary}
   - {color: '#FFDBCF', name: On Secondary Container}
@@ -14,9 +14,9 @@ color_scheme:
   - {color: '#F2E2A7', name: On Tertiary Container}
   - {color: '#FFB4AB', name: Error}
   - {color: '#0c6bdd', name: Background}
-  - {color: '#201A18', name: Surface}
-  - {color: '#EDE0DC', name: On Background}
-  - {color: '#EDE0DC', name: On Surface}
+  - {color: '#2ff', name: Surface}
+  - {color: '#000ffff', name: On Background}
+  - {color: '#EDEebb', name: On Surface}
   - {color: '#53433E', name: Surface Variant}
   - {color: '#D8C2BB', name: On Surface Variant}
   - {color: '#A08D86', name: Outline}
