@@ -2,7 +2,7 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 14px;
   font-weight: 300;
-  background-color: %color:Background%;
+  background-color: #f4ebc1;
   color: %color:On Background%;
 }
 
@@ -554,13 +554,12 @@ input[disabled] ~ span {
     margin: 10px;
     width: 35px;
     height: 35px;
-    color: %color:On Background%;
-    background: %color:Primary%;
+    color: #0c6bdd;
+    background: #0c6bdd;
     border-radius: 50%;
   }
   
     html:not(.designer) .sidebar-toggle:focus {
-    background: linear-gradient(0deg, %color:Dark Overlay 1%, %color:Dark Overlay 1%), %color:Primary%;
   }
   
   html:not(.designer) .nav-holder {
@@ -574,7 +573,7 @@ input[disabled] ~ span {
     max-width: 360px;
     z-index: 3;
     border-right: none;
-  /* 16dp */ box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  /* 16dp */ box-shadow: 0 16px 24px 2px rgb(12, 106, 221), 0 6px 30px 5px rgb(12, 106, 221), 0 8px 10px -5px rgb(12, 106, 221);
 
     display: none;
     transition: right 0.5s;
@@ -592,7 +591,7 @@ input[disabled] ~ span {
     left: 0;
     right: 0;
     z-index: 2;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgb(12, 106, 221);
   }
  }
 
