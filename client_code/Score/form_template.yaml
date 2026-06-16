@@ -19,7 +19,11 @@ components:
       type: Label
     - layout_properties: {grid_position: 'IWCIVG,OXNISK'}
       name: button_1
-      properties: {text: +2 Points}
+      properties:
+        spacing:
+          margin: [null, 0, null, null]
+          padding: [null, null, null, 0]
+        text: +2 Points
       type: Button
     - layout_properties: {grid_position: 'IWCIVG,MXJKYJ'}
       name: column_panel_4
