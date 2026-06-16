@@ -84,6 +84,192 @@ components:
   name: column_panel_2
   properties: {}
   type: ColumnPanel
+- components:
+  - components:
+    - layout_properties: {grid_position: 'IWCIVG,GURJNM'}
+      name: image_6
+      properties:
+        display_mode: shrink_to_fit
+        height: 44.399993896484375
+        margin: [0, 0, 0, 0]
+        source: _/theme/two.png
+      type: Image
+    - layout_properties: {grid_position: 'IWCIVG,EURIAW'}
+      name: label_3
+      properties: {text: Player Two}
+      type: Label
+    - layout_properties: {grid_position: 'IWCIVG,HXGVWJ'}
+      name: label_4
+      properties: {text: 4 Points}
+      type: Label
+    - layout_properties: {grid_position: 'IWCIVG,OXNISK'}
+      name: button_2
+      properties:
+        spacing:
+          margin: [null, 0, null, null]
+          padding: [null, null, null, 0]
+        text: +2 Points
+      type: Button
+    - layout_properties: {grid_position: 'IWCIVG,MXJKYJ'}
+      name: column_panel_13
+      properties: {}
+      type: ColumnPanel
+    - layout_properties: {grid_position: 'IWCIVG,MRIHTB'}
+      name: column_panel_14
+      properties: {}
+      type: ColumnPanel
+    - layout_properties: {grid_position: 'IWCIVG,PZKHWG'}
+      name: column_panel_15
+      properties: {}
+      type: ColumnPanel
+    - layout_properties: {grid_position: 'IWCIVG,DQQRLO'}
+      name: column_panel_16
+      properties: {}
+      type: ColumnPanel
+    - layout_properties: {grid_position: 'IWCIVG,LKFOUG'}
+      name: column_panel_17
+      properties: {}
+      type: ColumnPanel
+    - layout_properties: {grid_position: 'IWCIVG,YPMZFQ'}
+      name: column_panel_18
+      properties: {}
+      type: ColumnPanel
+    - layout_properties: {grid_position: 'IWCIVG,REWAEU'}
+      name: column_panel_19
+      properties: {}
+      type: ColumnPanel
+    layout_properties: {grid_position: 'GBRXIM,NNBWID'}
+    name: column_panel_12
+    properties: {}
+    type: ColumnPanel
+  layout_properties: {slot: default}
+  name: column_panel_11
+  properties: {col_widths: '{}'}
+  type: ColumnPanel
+- components:
+  - components:
+    - layout_properties: {grid_position: 'IWCIVG,GURJNM'}
+      name: image_7
+      properties:
+        display_mode: shrink_to_fit
+        height: 44.399993896484375
+        margin: [0, 0, 0, 0]
+        source: _/theme/three.png
+      type: Image
+    - layout_properties: {grid_position: 'IWCIVG,EURIAW'}
+      name: label_5
+      properties: {text: Player Three}
+      type: Label
+    - layout_properties: {grid_position: 'IWCIVG,HXGVWJ'}
+      name: label_6
+      properties: {text: 2 Points}
+      type: Label
+    - layout_properties: {grid_position: 'IWCIVG,OXNISK'}
+      name: button_3
+      properties:
+        spacing:
+          margin: [null, 0, null, null]
+          padding: [null, null, null, 0]
+        text: +2 Points
+      type: Button
+    - layout_properties: {grid_position: 'IWCIVG,MXJKYJ'}
+      name: column_panel_22
+      properties: {}
+      type: ColumnPanel
+    - layout_properties: {grid_position: 'IWCIVG,MRIHTB'}
+      name: column_panel_23
+      properties: {}
+      type: ColumnPanel
+    - layout_properties: {grid_position: 'IWCIVG,PZKHWG'}
+      name: column_panel_24
+      properties: {}
+      type: ColumnPanel
+    - layout_properties: {grid_position: 'IWCIVG,DQQRLO'}
+      name: column_panel_25
+      properties: {}
+      type: ColumnPanel
+    - layout_properties: {grid_position: 'IWCIVG,LKFOUG'}
+      name: column_panel_26
+      properties: {}
+      type: ColumnPanel
+    - layout_properties: {grid_position: 'IWCIVG,YPMZFQ'}
+      name: column_panel_27
+      properties: {}
+      type: ColumnPanel
+    - layout_properties: {grid_position: 'IWCIVG,REWAEU'}
+      name: column_panel_28
+      properties: {}
+      type: ColumnPanel
+    layout_properties: {grid_position: 'GBRXIM,NNBWID'}
+    name: column_panel_21
+    properties: {}
+    type: ColumnPanel
+  layout_properties: {slot: default}
+  name: column_panel_20
+  properties: {col_widths: '{}'}
+  type: ColumnPanel
+- components:
+  - components:
+    - layout_properties: {grid_position: 'IWCIVG,GURJNM'}
+      name: image_8
+      properties:
+        display_mode: shrink_to_fit
+        height: 44.399993896484375
+        margin: [0, 0, 0, 0]
+        source: _/theme/four.png
+      type: Image
+    - layout_properties: {grid_position: 'IWCIVG,EURIAW'}
+      name: label_7
+      properties: {text: Player Four}
+      type: Label
+    - layout_properties: {grid_position: 'IWCIVG,HXGVWJ'}
+      name: label_8
+      properties: {text: 6 Points}
+      type: Label
+    - layout_properties: {grid_position: 'IWCIVG,OXNISK'}
+      name: button_4
+      properties:
+        spacing:
+          margin: [null, 0, null, null]
+          padding: [null, null, null, 0]
+        text: +2 Points
+      type: Button
+    - layout_properties: {grid_position: 'IWCIVG,MXJKYJ'}
+      name: column_panel_31
+      properties: {}
+      type: ColumnPanel
+    - layout_properties: {grid_position: 'IWCIVG,MRIHTB'}
+      name: column_panel_32
+      properties: {}
+      type: ColumnPanel
+    - layout_properties: {grid_position: 'IWCIVG,PZKHWG'}
+      name: column_panel_33
+      properties: {}
+      type: ColumnPanel
+    - layout_properties: {grid_position: 'IWCIVG,DQQRLO'}
+      name: column_panel_34
+      properties: {}
+      type: ColumnPanel
+    - layout_properties: {grid_position: 'IWCIVG,LKFOUG'}
+      name: column_panel_35
+      properties: {}
+      type: ColumnPanel
+    - layout_properties: {grid_position: 'IWCIVG,YPMZFQ'}
+      name: column_panel_36
+      properties: {}
+      type: ColumnPanel
+    - layout_properties: {grid_position: 'IWCIVG,REWAEU'}
+      name: column_panel_37
+      properties: {}
+      type: ColumnPanel
+    layout_properties: {grid_position: 'GBRXIM,NNBWID'}
+    name: column_panel_30
+    properties: {}
+    type: ColumnPanel
+  layout_properties: {slot: default}
+  name: column_panel_29
+  properties: {col_widths: '{}'}
+  type: ColumnPanel
 container:
   properties: {html: '@theme:standard-page.html'}
   type: HtmlTemplate

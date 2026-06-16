@@ -1,8 +1,8 @@
-from ._anvil_designer import ScoreTemplate
+from ._anvil_designer import TriviaTemplate
 from anvil import *
 
 
-class Score(ScoreTemplate):
+class Trivia(TriviaTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     super().__init__(**properties)
