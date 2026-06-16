@@ -13,3 +13,8 @@ class Score(ScoreTemplate):
   def Score_click(self, **event_args):
     """This method is called when the link is clicked"""
     open_form('Score')
+
+  @handle("Trivia", "click")
+  def Trivia_click(self, **event_args):
+    """This method is called when the link is clicked"""
+    pass  # Write Code Here
