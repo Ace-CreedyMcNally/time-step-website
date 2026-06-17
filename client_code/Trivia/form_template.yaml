@@ -1,14 +1,18 @@
 components:
 - components:
-  - layout_properties: {grid_position: 'ZDLWNE,YWEVGM ZNSBDG,AHMCGC'}
-    name: text_box_1
-    properties: {align: center, bold: true, font_size: 31, text: 'What is the Capital City of Belgium?'}
-    type: TextBox
-  - layout_properties: {grid_position: 'ZDLWNE,YWEVGM IWODLO,IXMEGA'}
+  - layout_properties: {grid_position: 'KLSTFZ,AZGLXS'}
+    name: quText
+    properties: {align: center, background: 'theme:Background', font_size: 24}
+    type: RichText
+  - layout_properties: {grid_position: 'FCIMSW,FCGPPA'}
+    name: ansText
+    properties: {align: center}
+    type: RichText
+  - layout_properties: {grid_position: 'IWODLO,IXMEGA'}
     name: button_1
     properties: {font_size: 32, text: Answer}
     type: Button
-  - layout_properties: {full_width_row: false, grid_position: 'ZDLWNE,YWEVGM PNASNG,SUUQIH'}
+  - layout_properties: {full_width_row: false, grid_position: 'PNASNG,SUUQIH'}
     name: button_2
     properties: {font_size: 12, italic: false, text: NEW QUESTION, underline: true}
     type: Button

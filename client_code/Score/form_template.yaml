@@ -13,9 +13,10 @@ components:
       name: label_1
       properties: {text: Player One}
       type: Label
-    - layout_properties: {grid_position: 'IWCIVG,HXGVWJ'}
-      name: label_2
-      properties: {text: 0 Points}
+    - data_bindings: []
+      layout_properties: {grid_position: 'IWCIVG,HXGVWJ'}
+      name: score1
+      properties: {text: ''}
       type: Label
     - layout_properties: {grid_position: 'IWCIVG,OXNISK'}
       name: button_1
@@ -98,9 +99,10 @@ components:
       name: label_3
       properties: {text: Player Two}
       type: Label
-    - layout_properties: {grid_position: 'IWCIVG,HXGVWJ'}
-      name: label_4
-      properties: {text: 4 Points}
+    - data_bindings: []
+      layout_properties: {grid_position: 'IWCIVG,HXGVWJ'}
+      name: score2
+      properties: {text: ''}
       type: Label
     - layout_properties: {grid_position: 'IWCIVG,OXNISK'}
       name: button_2
@@ -160,9 +162,10 @@ components:
       name: label_5
       properties: {text: Player Three}
       type: Label
-    - layout_properties: {grid_position: 'IWCIVG,HXGVWJ'}
-      name: label_6
-      properties: {text: 2 Points}
+    - data_bindings: []
+      layout_properties: {grid_position: 'IWCIVG,HXGVWJ'}
+      name: score3
+      properties: {text: ''}
       type: Label
     - layout_properties: {grid_position: 'IWCIVG,OXNISK'}
       name: button_3
@@ -222,9 +225,10 @@ components:
       name: label_7
       properties: {text: Player Four}
       type: Label
-    - layout_properties: {grid_position: 'IWCIVG,HXGVWJ'}
-      name: label_8
-      properties: {text: 6 Points}
+    - data_bindings: []
+      layout_properties: {grid_position: 'IWCIVG,NPPQKQ'}
+      name: score4
+      properties: {text: ''}
       type: Label
     - layout_properties: {grid_position: 'IWCIVG,OXNISK'}
       name: button_4

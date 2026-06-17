@@ -1,6 +1,6 @@
 from ._anvil_designer import DiceTemplate
 from anvil import *
-
+import random
 
 class Dice(DiceTemplate):
   def __init__(self, **properties):
@@ -23,3 +23,10 @@ class Dice(DiceTemplate):
   def Dice_click(self, **event_args):
     """This method is called when the link is clicked"""
     open_form('Dice')
+
+  @handle("button_2", "click")
+  def button_2_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    dice = int(self.diceRoll.content)
+    dice = random.randint(1,6)
+    self.diceRoll.content = str(dice)

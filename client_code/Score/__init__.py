@@ -3,6 +3,7 @@ from anvil import *
 
 
 class Score(ScoreTemplate):
+
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     super().__init__(**properties)
@@ -23,3 +24,5 @@ class Score(ScoreTemplate):
   def Dice_click(self, **event_args):
     """This method is called when the link is clicked"""
     open_form('Dice')
+
+  
